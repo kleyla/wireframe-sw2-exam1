@@ -52,3 +52,10 @@ header {
 .no-active {
   color: #ccc;
 }
+.nuevo {
+  display: block;
+  text-align: end;
+  margin-right: 10px;
+  color: var(--secondary);
+}
+
