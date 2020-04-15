@@ -6,10 +6,12 @@
   text-decoration: none;
   list-style: none;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 :root {
-  --prymary: #ccc;
+  --primary: #ccc;
   --secondary: #008000;
+  --tertiary: #e1e1e1;
 }
 header {
   width: 100%;
@@ -19,10 +21,11 @@ header {
   margin-top: 5px;
   margin-left: 8px;
 }
-.titulo h1 {
+.titulo a {
   display: inline;
   color: var(--secondary);
   font-size: 40px;
+  font-weight: bold;
 }
 .navbar {
   position: fixed;
@@ -57,42 +60,52 @@ header {
   color: #000;
 }
 .tabs ul li:active {
-  background: var(--prymary);
+  background: var(--primary);
 }
 .tabs ul li a:hover {
   text-decoration: underline;
 }
-.proy-box {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  margin: 10px 20px;
+.box {
   border: 1px solid #000;
 }
+.proy-box {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px 20px;
+}
 .proy-desc {
-  width: 50%;
+  width: 45%;
   display: inline;
   margin: 10px;
 }
-.proy-desc a {
+.proy-titulo {
+  display: block;
   color: #000;
   font-weight: bold;
   font-size: 24px;
+  width: auto;
+  margin-bottom: 5px;
 }
 .proy-desc a:hover {
   text-decoration: underline;
 }
 .proy-miembros {
-  width: 50%;
+  width: 45%;
   display: inline;
-  border: 1px solid var(--prymary);
-  background: var(--prymary);
+  border: 1px solid var(--primary);
+  background: var(--primary);
   margin: 10px;
   padding: 10px;
 }
-.subtitulo {
+.proy-subtitulo {
   margin-bottom: 5px;
 }
 .icono {
   margin: 5px;
+}
+.active {
+  background: var(--primary);
 }
