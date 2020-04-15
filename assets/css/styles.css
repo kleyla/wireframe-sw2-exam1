@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --prymary: #ccc;
+  --secondary: #008000;
+}
+header {
+  width: 100%;
+  height: 80px;
+}
+.titulo {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.titulo h1 {
+  display: inline;
+  color: var(--secondary);
+}
+.navbar {
+  position: fixed;
+  right: 8px;
+  top: 8px;
+}
+.navbar ul li {
+  display: inline;
+  /* background: red; */
+}
+.navbar ul li a {
+  color: #000;
+  font-size: 18px;
+}
+.tabs {
+  display: block;
+  /* background: red; */
+}
+.tabs ul {
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+  padding-left: 8px;
+}
+.tabs ul li {
+  display: inline;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+  border-radius: 20% 20% 0 0;
+  padding: 10px 10px;
+}
+.tabs ul li a {
+  color: #000;
+}
+.tabs ul li:active {
+  background: var(--prymary);
+}
+.tabs ul li a:hover {
+  text-decoration: underline;
+}
+.proy-box {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 10px 20px;
+  border: 1px solid #000;
+}
+.proy-desc {
+  width: 50%;
+  display: inline;
+  margin: 10px;
+}
+.proy-miembros {
+  width: 50%;
+  display: inline;
+  border: 1px solid var(--prymary);
+  background: var(--prymary);
+  margin: 10px;
+  padding: 10px;
+}
+.subtitulo {
+  margin-bottom: 5px;
+}
+.icono {
+  margin: 5px;
+}
