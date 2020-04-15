@@ -35,7 +35,6 @@ header {
 }
 .navbar ul li a {
   color: #000;
-  font-size: 18px;
 }
 .tabs {
   display: block;
@@ -74,6 +73,14 @@ header {
   width: 50%;
   display: inline;
   margin: 10px;
+}
+.proy-desc a {
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+}
+.proy-desc a:hover {
+  text-decoration: underline;
 }
 .proy-miembros {
   width: 50%;
