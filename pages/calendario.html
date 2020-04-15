@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./../assets/css/styles.css">
+    <link rel="stylesheet" href="./../assets/css/styles-proy.css">
+    <title>Wireframe SW2</title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <a href="./../index.html">PALMERA</a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Preferencias</a></li>
+                <li>|</li>
+                <li><a href="#">Cerrar sesion</a></li>
+            </ul>
+        </nav>
+        <a href="./pages/proyecto.html" class="proy-titulo"> Proyecto 1</a>
+    </header>
+    <div>
+    </div>
+    <nav class="tabs">
+        <ul>
+            <li><a href="./proyecto.html">Vistazo</a></li>
+            <li><a href="#">Actividad</a></li>
+            <li><a href="#">Peticiones</a></li>
+            <li><a href="#">Gantt</a></li>
+            <li class="active"><a href="calendario.html">Calendario</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Documentos</a></li>
+            <li><a href="#">Archivos</a></li>
+            <li><a href="#">Configuracion</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <div class="proy-box">
+            <div class="row">
+                <h3 class="proy-subtitulo">Descripcion</h3>
+                <label for="mes">Mes</label>
+                <select id="mes" name="mes">
+                    <option value="1">Enero</option>
+                    <option value="2">Febrero</option>
+                    <option value="3">Marzo</option>
+                    <option value="4">Abril</option>
+                </select>
+                <label for="ano">Año</label>
+                <select id="ano" name="ano">
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                </select>
+            </div>
+            <!-- <div class="calendario"> -->
+                <table class="calendario">
+                    <tr>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sabado</th>
+                        <th>Domingo</th>
+                    </tr>
+                    <tr>
+                        <td class="no-active">30</td>
+                        <td class="no-active">31</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td class="no-active">1</td>
+                        <td class="no-active">2</td>
+                        <td class="no-active">3</td>
+                    </tr>
+                </table>
+
+            <!-- </div> -->
+
+
+        </div>
+    </main>
+</body>
+
+</html>

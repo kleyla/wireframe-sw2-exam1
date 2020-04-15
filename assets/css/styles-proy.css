@@ -1,0 +1,54 @@
+header {
+  height: 100px;
+}
+.proy-titulo {
+  margin-left: 10px;
+}
+.proy-peticiones {
+  width: 45%;
+  background: var(--tertiary);
+  padding: 10px;
+}
+.proy-noticias {
+  width: 45%;
+}
+.table-proy-pet {
+  text-align: center;
+  font-size: 12px;
+}
+.table-proy-pet th,
+.table-proy-pet td {
+  padding: 3px 20px;
+}
+.table-proy-pet tr:first-child {
+  background: #fff;
+}
+.row {
+  width: 100%;
+}
+
+.calendario {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+.calendario tr:first-child {
+  background: var(--primary);
+}
+.calendario tr th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.calendario td {
+  text-align: end;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+.calendario th,
+.calendario td {
+  border: 1px solid #ddd;
+}
+.no-active {
+  color: #ccc;
+}
