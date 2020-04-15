@@ -109,3 +109,43 @@ header {
 .active {
   background: var(--primary);
 }
+.subtitulo-principal {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.nuevo {
+  /* background-color: red; */
+  position: fixed;
+  right: 0;
+  text-align: end;
+  margin-right: 10px;
+  color: var(--secondary);
+}
+.contenedor {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.tabla tr:first-child {
+  background: var(--primary);
+}
+.tabla th,
+.tabla td {
+  border: 1px solid #ddd;
+  padding: 10px 5px;
+}
+.icono-op {
+  margin: 0;
+  padding: 0;
+  color: var(--secondary);
+}
+.options {
+  text-align: center;
+}
