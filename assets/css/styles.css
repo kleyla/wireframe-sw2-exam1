@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
+  font-family: "Roboto", sans-serif;
 }
 :root {
   --prymary: #ccc;
@@ -14,11 +17,12 @@ header {
 }
 .titulo {
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 8px;
 }
 .titulo h1 {
   display: inline;
   color: var(--secondary);
+  font-size: 40px;
 }
 .navbar {
   position: fixed;
