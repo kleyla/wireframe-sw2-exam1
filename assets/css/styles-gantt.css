@@ -1,0 +1,17 @@
+.gantt tr:nth-child(2) {
+  background: var(--primary);
+  text-align: end;
+}
+.gantt tr td {
+  border-bottom: none;
+  border-top: none;
+}
+.icono-gantt {
+  color: var(--secondary);
+  font-size: 20px;
+  text-align: center;
+}
+.icono-gantt-c {
+  font-size: 15px;
+  color: var(--primary);
+}
