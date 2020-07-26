@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./../../assets/css/styles.css">
+    <link rel="stylesheet" href="./../../assets/css/styles-proy.css">
+    <link rel="stylesheet" href="./../../assets/css/styles-form.css">
+    <title>Wireframe SW2</title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <a href="./../index.html">PALMERA</a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Preferencias</a></li>
+                <li>|</li>
+                <li><a href="#">Cerrar sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="tabs">
+        <ul>
+            <li><a href="./../../index.html">Principal</a></li>
+            <li><a href="./../proyectos.html">Personal</a></li>
+            <li><a href="./../procesos.html">Procesos</a></li>
+            <li class="active"><a href="./../proyectos.html">Proyectos</a></li>
+            <li><a href="./../grupos.html">Medio Ambiente</a></li>
+            <li><a href="./../tipos-de-peticiones.html">Seguridad y salud</a></li>
+            <li><a href="./../tipos-de-peticiones.html">Mejora</a></li>
+        </ul>
+        <ul class="tab-line">
+            <li><a href="#">Gestion reporte</a></li>
+            <li><a href="#">Encuestas</a></li>
+            <li><a href="#">Gestion documental</a></li>
+            <li><a href="#">Auditorias</a></li>
+            <li><a href="./procesos.html">Procesos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="side-bar">
+            <ul>
+                <li class="active"><a href="./../proyectos.html"><i class="material-icons">input</i>Proyectos</a></li>
+                <li><a href="./usuarios.html"><i class="material-icons">input</i>Usuarios</a></li>
+                <li><a href="./grupos.html"><i class="material-icons">input</i>Grupos</a></li>
+                <li><a href="./tipos-de-peticiones.html"><i class="material-icons">input</i>Tipos de
+                        peticiones</a></li>
+            </ul>
+        </div>
+        <div class="contenido">
+            <h3 class="proy-subtitulo">Nuevo proyecto</h3>
+            <form action="#" class="proy-new">
+                <div class="group">
+                    <label for="proyecto">Nombre del proyecto:</label>
+                    <input type="text">
+                </div>
+                <div class="group">
+                    <label for="desc">Descripcion:</label>
+                    <textarea name="desc" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="group">
+                    <label for="modulos">Modulos</label>
+                    <div class="fila">
+                        <div class="check">
+                            <input type="radio" id="check" name="check" value="check">
+                            <label for="check">Peticiones</label><br>
+                        </div>
+                        <div class="check">
+                            <input type="radio" id="check" name="check" value="check">
+                            <label for="check">ACtividades</label><br>
+                        </div>
+                        <div class="check">
+                            <input type="radio" id="check" name="check" value="check">
+                            <label for="check">Diagrama de Gantt</label>
+                        </div>
+                        <div class="check">
+                            <input type="radio" id="check" name="check" value="check">
+                            <label for="check">Calendario</label>
+                        </div>
+                        <div class="check">
+                            <input type="radio" id="check" name="check" value="check">
+                            <label for="check">Noticias</label>
+                        </div>
+                        <div class="check">
+                            <input type="radio" id="check" name="check" value="check">
+                            <label for="check">Documentos</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="group">
+                    <label for="modulos">Tipod de peticiones</label>
+                    <div class="fila">
+                        <div class="check">
+                            <input type="radio" id="check" name="check" value="check">
+                            <label for="check">Errores</label><br>
+                        </div>
+                        <div class="check">
+                            <input type="radio" id="check" name="check" value="check">
+                            <label for="check">Tareas</label><br>
+                        </div>
+                        <div class="check">
+                            <input type="radio" id="check" name="check" value="check">
+                            <label for="check">Soporte</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

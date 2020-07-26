@@ -22,76 +22,102 @@
                 <li><a href="#">Cerrar sesion</a></li>
             </ul>
         </nav>
-        <a href="./pages/proyecto.html" class="proy-titulo"> Proyecto 1</a>
     </header>
     <div>
     </div>
     <nav class="tabs">
         <ul>
-            <li class="active"><a href="./index.html">Vistazo</a></li>
-            <li><a href="#">Actividad</a></li>
-            <li><a href="#">Peticiones</a></li>
-            <li><a href="./gantt.html">Gantt</a></li>
-            <li><a href="calendario.html">Calendario</a></li>
-            <li><a href="#">Noticias</a></li>
-            <li><a href="#">Documentos</a></li>
-            <li><a href="#">Archivos</a></li>
-            <li><a href="#">Configuracion</a></li>
-
+            <li><a href="./../../index.html">Principal</a></li>
+            <li><a href="./../proyectos.html">Personal</a></li>
+            <li><a href="./../procesos.html">Procesos</a></li>
+            <li class="active"><a href="./../proyectos.html">Proyectos</a></li>
+            <li><a href="./../grupos.html">Medio Ambiente</a></li>
+            <li><a href="./../tipos-de-peticiones.html">Seguridad y salud</a></li>
+            <li><a href="./../tipos-de-peticiones.html">Mejora</a></li>
+        </ul>
+        <ul class="tab-line">
+            <li><a href="#">Gestion reporte</a></li>
+            <li><a href="#">Encuestas</a></li>
+            <li><a href="#">Gestion documental</a></li>
+            <li><a href="#">Auditorias</a></li>
+            <li><a href="./procesos.html">Procesos</a></li>
         </ul>
     </nav>
     <main>
-        <div class="proy-box">
-            <div class="proy-desc">
-                <h3 class="proy-subtitulo">Descripcion</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, ipsa.</p>
-            </div>
-            <div class="proy-miembros">
-                <div class="proy-subtitulo">
-                    <h3><i class="material-icons icono">people</i>Miembros</h3>
+        <div class="side-bar">
+            <ul>
+                <li class="active"><a href="./../proyectos.html"><i class="material-icons">input</i>Proyectos</a></li>
+                <li><a href="./usuarios.html"><i class="material-icons">input</i>Usuarios</a></li>
+                <li><a href="./grupos.html"><i class="material-icons">input</i>Grupos</a></li>
+                <li><a href="./tipos-de-peticiones.html"><i class="material-icons">input</i>Tipos de
+                        peticiones</a></li>
+            </ul>
+        </div>
+        <div class="contenido">
+            <a href="./proyecto.html" class="proy-titulo"> Proyecto 1</a>
+            <nav class="sub-tabs">
+                <ul>
+                    <li class="active"><a href="./proyecto.html">Vistazo</a></li>
+                    <li><a href="#">Actividad</a></li>
+                    <li><a href="#">Peticiones</a></li>
+                    <li><a href="./gantt.html">Gantt</a></li>
+                    <li><a href="calendario.html">Calendario</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Documentos</a></li>
+                    <li><a href="#">Configuracion</a></li>
+                </ul>
+            </nav>
+            <div class="proy-box">
+                <div class="proy-desc">
+                    <h3 class="proy-subtitulo">Descripcion</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, ipsa.</p>
                 </div>
-                <div class="miembros-list">
-                    <ul>
-                        <li><b>Jefe de proyecto:</b> Karen Rodriguez</li>
-                        <li><b>Desarrollador:</b> Fabrizio Torrico</li>
-                        <li><b>Tester:</b> Jandira Vargas</li>
+                <div class="proy-miembros">
+                    <div class="proy-subtitulo">
+                        <h3><i class="material-icons icono">people</i>Miembros</h3>
+                    </div>
+                    <div class="miembros-list">
+                        <ul>
+                            <li><b>Jefe de proyecto:</b> Karen Rodriguez</li>
+                            <li><b>Desarrollador:</b> Fabrizio Torrico</li>
+                            <li><b>Tester:</b> Jandira Vargas</li>
 
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="proy-peticiones">
-                <div class="proy-subtitulo">
-                    <h3><i class="material-icons icono">insert_chart_outlined</i>Peticiones</h3>
-                    <table class="table-proy-pet">
-                        <tr>
-                            <th>-</th>
-                            <th>Abiertas</th>
-                            <th>Cerradas</th>
-                            <th>Total</th>
-                        </tr>
-                        <tr>
-                            <td>Errores</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>Tareas</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>Soporte</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-                        </tr>
-                    </table>
+                <div class="proy-peticiones">
+                    <div class="proy-subtitulo">
+                        <h3><i class="material-icons icono">insert_chart_outlined</i>Peticiones</h3>
+                        <table class="table-proy-pet">
+                            <tr>
+                                <th>-</th>
+                                <th>Abiertas</th>
+                                <th>Cerradas</th>
+                                <th>Total</th>
+                            </tr>
+                            <tr>
+                                <td>Errores</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Tareas</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Soporte</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-            </div>
-            <div class="proy-noticias">
-
+                <div class="proy-noticias">
+                </div>
             </div>
         </div>
     </main>
